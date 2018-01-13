@@ -1,0 +1,9 @@
+root@NHATMINHDELL:~# cd /bin
+root@NHATMINHDELL:/bin# ls | grep list
+root@NHATMINHDELL:/bin# cat /etc/passwd | wc -l
+30
+root@NHATMINHDELL:/bin# free -h | grep Mem: | awk '{print $2}'
+7.9G
+root@NHATMINHDELL:/bin# grep processor /proc/cpuinfo | wc -l
+4
+root@NHATMINHDELL:/bin# find ~/Pictures/ iname '*.jpg' | wc -l0
