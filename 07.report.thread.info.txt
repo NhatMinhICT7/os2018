@@ -1,0 +1,5 @@
+dnminh1998@NHATMINHDELL:~$ ps -aux | grep firefox
+dnminh1+  1760  0.0  0.0  22820  1024 pts/17   S+   10:38   0:00 grep --color=auto firefox
+dnminh1998@NHATMINHDELL:~$ ps -o nlwp 1956
+NLWP
+
